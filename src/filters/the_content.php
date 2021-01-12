@@ -43,6 +43,7 @@ class the_content
 
     public function get_organism()
     {
+
         foreach($this->instance['organism'] as $this->organism)
         {
             $this->instantiate_organism();
@@ -52,13 +53,7 @@ class the_content
 
     public function instantiate_organism()
     {
-        $namespace = '\\andyp\\pagebuilder\\' . $this->organism['acf_fc_layout'] . '\\initialise';
-
-        $organism = new $namespace;
-
-        $organism->set($this->organism);
-
-        $this->output .= $organism->get();
+        $this->output .= \apply_filters('pagebuilder_' . $this->organism['acf_fc_layout'], $this->organism);
     }
 
 
