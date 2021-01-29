@@ -11,7 +11,7 @@ class initialise {
         // ┌─────────────────────────────────────────────────────────────────────────┐
         // │                            Include Field Groups    	        	     │
         // └─────────────────────────────────────────────────────────────────────────┘
-        require __DIR__.'/acf/acf_field_groups.php';
+        // require __DIR__.'/acf/acf_field_groups.php';
 
         
         new filters\disable_wysiwyg;
