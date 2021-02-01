@@ -18,7 +18,4 @@ class initialise {
         new filters\the_content;
     }
 
-
-
-
 }
