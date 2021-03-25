@@ -26,6 +26,9 @@ class import
 
     public function look_for_json()
     {
+        if (!isset($_GET['post'])){ return; }
+        if (!get_field('json_import_data')) { return; }
+
         // Get the 'json_import_data' field
         $this->acf_data = \get_field('field_602e58a3bbfcd', $_GET['post']);
     }
@@ -46,6 +49,7 @@ class import
         if (!empty($this->error)){ return; }
         if (empty($this->data)){ return; }
         if (!is_array($this->data)){ return; }
+        if (!isset($_GET['post'])){ return; }
 
         // update 'builder_instance'
         $result = \update_field('field_5ffc43724a491', $this->data, $_GET['post']);
@@ -56,6 +60,7 @@ class import
 
     public function clear_import_textarea()
     {
+        if (!isset($_GET['post'])){ return; }
         \update_field('field_602e58a3bbfcd', ' ', $_GET['post']);
     }
 
