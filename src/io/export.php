@@ -47,12 +47,15 @@ class export
     public function get_acf_as_json()
     {
         // Get the 'builder_instance' field
+        if (!isset($_GET['post'])){ return; }
+        if (!get_field('json_export_data')) { return; }
         $this->acf_data = \get_field('field_5ffc43724a491', $_GET['post']);
     }
 
 
     public function update_export_textarea()
     {
+        if (empty($this->acf_data)){ return; }
         $acf_data = addslashes(json_encode($this->acf_data,JSON_PRETTY_PRINT));
         $result = \update_field('field_602e273c8cee6', print_r($acf_data, true), $_GET['post']);
     }
@@ -70,6 +73,7 @@ class export
 
     public function download_json()
     {
+        if (empty($this->acf_data)){ return; }
         header('Content-disposition: attachment; filename=file.json');
         header('Content-Type: application/json');
         echo json_encode($this->acf_data,JSON_PRETTY_PRINT);
