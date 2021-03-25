@@ -36,6 +36,7 @@ class import
 
     public function decode_and_check_valid_json()
     {
+        if (!isset($this->acf_data)){ return; }
         $this->data = json_decode($this->acf_data, true);
         if (json_last_error() !== JSON_ERROR_NONE) {
             $this->error = json_last_error();
