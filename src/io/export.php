@@ -48,16 +48,19 @@ class export
     {
         // Get the 'builder_instance' field
         if (!isset($_GET['post'])){ return; }
-        if (!get_field('json_export_data')) { return; }
-        $this->acf_data = \get_field('field_5ffc43724a491', $_GET['post']);
+        $this->acf_data = \get_field('builder_instance', $_GET['post']);
+        $this->acf_svg  = \get_field('svg_instances', $_GET['post']);
     }
 
 
     public function update_export_textarea()
     {
-        if (empty($this->acf_data)){ return; }
+        if (!isset($_GET['post'])){ return; }
         $acf_data = addslashes(json_encode($this->acf_data,JSON_PRETTY_PRINT));
-        $result = \update_field('field_602e273c8cee6', print_r($acf_data, true), $_GET['post']);
+        $result = \update_field('json_export_data', print_r($acf_data, true), $_GET['post']);
+
+        $svg_data = addslashes(json_encode($this->acf_svg,JSON_PRETTY_PRINT));
+        $result = \update_field('json_export_svg', print_r($svg_data, true), $_GET['post']);
     }
 
 
@@ -68,7 +71,6 @@ class export
         if( isset( $_GET["post"] ) && isset( $_GET['download_file'] ) ) {
             $this->download_json();
         }
-
     }
 
     public function download_json()
