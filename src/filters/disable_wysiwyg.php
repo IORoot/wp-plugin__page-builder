@@ -13,7 +13,7 @@ class disable_wysiwyg
 
     public function init_remove_support()
     {
-        remove_post_type_support( 'page', 'editor');
+        remove_post_type_support( 'page', 'editor', 'amp');
     }
 
 }

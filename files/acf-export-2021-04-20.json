@@ -1,0 +1,1909 @@
+[
+    {
+        "key": "group_5ffc42e0ab235",
+        "title": "Page Builder",
+        "fields": [
+            {
+                "key": "field_5ffc43074a490",
+                "label": "<span class=\"mdi mdi-console\" ><\/span> Page Builder",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_5ffc43724a491",
+                "label": "Builder Instance",
+                "name": "builder_instance",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_5ffc43a04a492",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "Add Section",
+                "sub_fields": [
+                    {
+                        "key": "field_5ffc43a04a492",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5ffc43ac4a493",
+                        "label": "Organism",
+                        "name": "organism",
+                        "type": "flexible_content",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "layouts": {
+                            "layout_5ffc6942a4e5d": {
+                                "key": "layout_5ffc6942a4e5d",
+                                "name": "flickity",
+                                "label": "<span class=\"mdi mdi-table-row\"><\/span> Flickity",
+                                "display": "block",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5ffc6956a4e5e",
+                                        "label": "",
+                                        "name": "flickity",
+                                        "type": "clone",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "clone": [
+                                            "group_5ffc654aaac1c"
+                                        ],
+                                        "display": "seamless",
+                                        "layout": "block",
+                                        "prefix_label": 0,
+                                        "prefix_name": 0
+                                    }
+                                ],
+                                "min": "",
+                                "max": ""
+                            },
+                            "layout_5ffd87c36b115": {
+                                "key": "layout_5ffd87c36b115",
+                                "name": "isotope",
+                                "label": "<span class=\"mdi mdi-table\"><\/span> Isotope",
+                                "display": "block",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5ffd87d26b116",
+                                        "label": "",
+                                        "name": "isotope",
+                                        "type": "clone",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "clone": [
+                                            "group_5ffd803e128fe"
+                                        ],
+                                        "display": "seamless",
+                                        "layout": "block",
+                                        "prefix_label": 0,
+                                        "prefix_name": 0
+                                    }
+                                ],
+                                "min": "",
+                                "max": ""
+                            },
+                            "layout_6007e4d9fbe17": {
+                                "key": "layout_6007e4d9fbe17",
+                                "name": "yt_lite",
+                                "label": "<span class=\"mdi mdi-youtube\"><\/span> YouTube-Lite",
+                                "display": "block",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_6007e4f1fbe18",
+                                        "label": "",
+                                        "name": "yt_lite",
+                                        "type": "clone",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "clone": [
+                                            "group_6007e242e0872"
+                                        ],
+                                        "display": "seamless",
+                                        "layout": "block",
+                                        "prefix_label": 0,
+                                        "prefix_name": 0
+                                    },
+                                    {
+                                        "key": "field_5ffc51ff74345_field_600e9048cebf2",
+                                        "label": "<span class=\"mdi mdi-help\"><\/span> Help",
+                                        "name": "",
+                                        "type": "accordion",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "message": "",
+                                        "default_value": "",
+                                        "ui": 1,
+                                        "ui_on_text": "",
+                                        "ui_off_text": "",
+                                        "placeholder": "",
+                                        "maxlength": "",
+                                        "rows": 12,
+                                        "new_lines": "",
+                                        "open": 0,
+                                        "multi_expand": 0,
+                                        "endpoint": 0
+                                    }
+                                ],
+                                "min": "",
+                                "max": ""
+                            },
+                            "layout_6033e88dbc9d2": {
+                                "key": "layout_6033e88dbc9d2",
+                                "name": "hero_randomiser",
+                                "label": "<span class=\"mdi mdi-account-cowboy-hat\"><\/span> Hero Randomiser",
+                                "display": "block",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_6033e8b1bc9d3",
+                                        "label": "<span class=\"mdi mdi-account-cowboy-hat\"><\/span> Hero Instance",
+                                        "name": "",
+                                        "type": "tab",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "placement": "left",
+                                        "endpoint": 0
+                                    },
+                                    {
+                                        "key": "field_6034c575cf98b",
+                                        "label": "Enabled",
+                                        "name": "enabled",
+                                        "type": "true_false",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "message": "",
+                                        "default_value": 1,
+                                        "ui": 1,
+                                        "ui_on_text": "",
+                                        "ui_off_text": ""
+                                    },
+                                    {
+                                        "key": "field_6033eb0187809",
+                                        "label": "Instance Name",
+                                        "name": "instance_name",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": ""
+                                    },
+                                    {
+                                        "key": "field_6034d8c036851",
+                                        "label": "Wrapper Classes",
+                                        "name": "wrapper_classes",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": ""
+                                    },
+                                    {
+                                        "key": "field_6033e8c2bc9d4",
+                                        "label": "<span class=\"mdi mdi-image\"><\/span> Image Layers",
+                                        "name": "",
+                                        "type": "tab",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "placement": "left",
+                                        "endpoint": 0
+                                    },
+                                    {
+                                        "key": "field_6034dea79a1c4",
+                                        "label": "Global Image Classes",
+                                        "name": "global_image_classes",
+                                        "type": "text",
+                                        "instructions": "Apply to all images",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": ""
+                                    },
+                                    {
+                                        "key": "field_6033eb178780a",
+                                        "label": "Images",
+                                        "name": "images",
+                                        "type": "repeater",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "collapsed": "field_6033ef120fe18",
+                                        "min": 0,
+                                        "max": 0,
+                                        "layout": "block",
+                                        "button_label": "",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_6033ef120fe18",
+                                                "label": "Image Title",
+                                                "name": "image_title",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_6033eccfb2ce2",
+                                                "label": "Image Classes",
+                                                "name": "image_classes",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_6033eb2e8780b",
+                                                "label": "Image",
+                                                "name": "image",
+                                                "type": "image",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "return_format": "array",
+                                                "preview_size": "medium",
+                                                "library": "all",
+                                                "min_width": "",
+                                                "min_height": "",
+                                                "min_size": "",
+                                                "max_width": "",
+                                                "max_height": "",
+                                                "max_size": "",
+                                                "mime_types": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "field_6033e8ecbc9d5",
+                                        "label": "<span class=\"mdi mdi-svg\"><\/span> SVG Layers",
+                                        "name": "",
+                                        "type": "tab",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "placement": "left",
+                                        "endpoint": 0
+                                    },
+                                    {
+                                        "key": "field_6033eb458780c",
+                                        "label": "SVGs",
+                                        "name": "svgs",
+                                        "type": "repeater",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "collapsed": "field_6033efbb86194",
+                                        "min": 0,
+                                        "max": 0,
+                                        "layout": "block",
+                                        "button_label": "",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_6033efbb86194",
+                                                "label": "SVG Label",
+                                                "name": "svg_label",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "40",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_6034f16eebd5f",
+                                                "label": "SVG Light Colour",
+                                                "name": "svg_light",
+                                                "type": "text",
+                                                "instructions": "Use against dark background. RGBA \/ HEX \/ etc.",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "30",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "#FFFFFF",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_6034f18debd60",
+                                                "label": "SVG Dark Colour",
+                                                "name": "svg_dark",
+                                                "type": "text",
+                                                "instructions": "Use against dark background. RGBA \/ HEX \/ etc.",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "30",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "#000000",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_6033eb558780d",
+                                                "label": "SVG",
+                                                "name": "svg",
+                                                "type": "textarea",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "ue__codemirror",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": "",
+                                                "new_lines": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "field_6033e909bc9d7",
+                                        "label": "<span class=\"mdi mdi-text\"><\/span> Text Layers",
+                                        "name": "",
+                                        "type": "tab",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "placement": "left",
+                                        "endpoint": 0
+                                    },
+                                    {
+                                        "key": "field_6034e9b81dbe9",
+                                        "label": "Text Wrapper Classes",
+                                        "name": "text_wrapper_classes",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": ""
+                                    },
+                                    {
+                                        "key": "field_6033eb758780e",
+                                        "label": "Text",
+                                        "name": "text",
+                                        "type": "repeater",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "collapsed": "field_6033eb8a8780f",
+                                        "min": 0,
+                                        "max": 0,
+                                        "layout": "block",
+                                        "button_label": "",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_6033eb8a8780f",
+                                                "label": "Title",
+                                                "name": "title",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_6033ecf1b2ce3",
+                                                "label": "Title Classes",
+                                                "name": "title_classes",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_6033eb9787810",
+                                                "label": "Subtitle",
+                                                "name": "subtitle",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_6033ecfbb2ce4",
+                                                "label": "Subtitle Classes",
+                                                "name": "subtitle_classes",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_60351bc02d9d8",
+                                                "label": "Text Light Colour",
+                                                "name": "text_light",
+                                                "type": "text",
+                                                "instructions": "Use against light background. RGBA \/ HEX \/ etc.",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "#FFFFFF",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_6034eab248bab",
+                                                "label": "Text Light Class",
+                                                "name": "text_light_class",
+                                                "type": "text",
+                                                "instructions": "Use as {{text_luminance_class}} for HTML Layers",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "text-white",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_6034eb3448bac",
+                                                "label": "Text Dark Colour",
+                                                "name": "text_dark",
+                                                "type": "text",
+                                                "instructions": "Use against light background. RGBA \/ HEX \/ etc.",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "#000000",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_60351b590491b",
+                                                "label": "Text Dark Class",
+                                                "name": "text_dark_class",
+                                                "type": "text",
+                                                "instructions": "Use as {{text_luminance_class}} for HTML Layers",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "50",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "text-black",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "field_6033e92abc9d9",
+                                        "label": "<span class=\"mdi mdi-language-html5\"><\/span> HTML Layers",
+                                        "name": "",
+                                        "type": "tab",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "placement": "left",
+                                        "endpoint": 0
+                                    },
+                                    {
+                                        "key": "field_6034fdbda0fc1",
+                                        "label": "HTML & TEXT Open Wrapper",
+                                        "name": "html_text_wrapper_open",
+                                        "type": "textarea",
+                                        "instructions": "If you wish to wrap BOTH the text and HTML with a wrapper, define it here. (Good for positioning both)",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "50",
+                                            "class": "ue__codemirror",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "maxlength": "",
+                                        "rows": "",
+                                        "new_lines": ""
+                                    },
+                                    {
+                                        "key": "field_6034fe10a0fc2",
+                                        "label": "HTML & TEXT Close Wrapper",
+                                        "name": "html_text_wrapper_close",
+                                        "type": "textarea",
+                                        "instructions": "Closing of the wrapper. Make sure you close all tags, otherwise HTML will break.",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "50",
+                                            "class": "ue__codemirror",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "maxlength": "",
+                                        "rows": "",
+                                        "new_lines": ""
+                                    },
+                                    {
+                                        "key": "field_6033ebcb87812",
+                                        "label": "HTML",
+                                        "name": "html",
+                                        "type": "repeater",
+                                        "instructions": "These layers will be visible on ALL instances. (Use for buttons, etc...)",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "collapsed": "",
+                                        "min": 0,
+                                        "max": 0,
+                                        "layout": "block",
+                                        "button_label": "",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_6033ebf987813",
+                                                "label": "HTML Layer",
+                                                "name": "html_layer",
+                                                "type": "textarea",
+                                                "instructions": "{{text_luminance}} will substitute for the text_luminance.<br\/>\r\n{{svg_luminance}} will substitute for the svg_luminance.<br\/>\r\n{{background_colour}} will substitute for the background colour.<br\/>\r\n{{text_luminance_class}} for the colour class.\r\n{{text_luminance_class_inv}} for the inverse colour class.",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "ue__codemirror",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": "",
+                                                "new_lines": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "field_6033e8f9bc9d6",
+                                        "label": "<span class=\"mdi mdi-palette\"><\/span> Colour Layers",
+                                        "name": "",
+                                        "type": "tab",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "placement": "left",
+                                        "endpoint": 0
+                                    },
+                                    {
+                                        "key": "field_6033ec2087814",
+                                        "label": "Colours",
+                                        "name": "colours",
+                                        "type": "repeater",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "collapsed": "",
+                                        "min": 0,
+                                        "max": 0,
+                                        "layout": "block",
+                                        "button_label": "",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_6033ec2a87815",
+                                                "label": "Class",
+                                                "name": "label",
+                                                "type": "text",
+                                                "instructions": "Identifier \/ Class Name {{colour_class}}",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "25",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_6033ec4287816",
+                                                "label": "CSS Colour Value",
+                                                "name": "css_colour",
+                                                "type": "text",
+                                                "instructions": "hex \/ rgba \/ rgb \/ etc...",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "25",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_6034c5e6257ec",
+                                                "label": "SVG Luminance",
+                                                "name": "svg_luminance",
+                                                "type": "true_false",
+                                                "instructions": "Make the SVG Light or Dark with this background",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "25",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "message": "",
+                                                "default_value": 1,
+                                                "ui": 1,
+                                                "ui_on_text": "Light",
+                                                "ui_off_text": "Dark"
+                                            },
+                                            {
+                                                "key": "field_6034f08c22b14",
+                                                "label": "Text Luminance",
+                                                "name": "text_luminance",
+                                                "type": "true_false",
+                                                "instructions": "Make the Text Light or Dark with this background",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "25",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "message": "",
+                                                "default_value": 1,
+                                                "ui": 1,
+                                                "ui_on_text": "Light",
+                                                "ui_off_text": "Dark"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "min": "",
+                                "max": ""
+                            },
+                            "layout_603bec45e1806": {
+                                "key": "layout_603bec45e1806",
+                                "name": "content_rotator",
+                                "label": "<span class=\"mdi mdi-axis-x-rotate-clockwise\"><\/span> Content Rotator",
+                                "display": "block",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_603bec71e1807",
+                                        "label": "<span class=\"mdi mdi-axis-x-rotate-clockwise\"><\/span> Instance",
+                                        "name": "",
+                                        "type": "tab",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "placement": "left",
+                                        "endpoint": 0
+                                    },
+                                    {
+                                        "key": "field_603becd8e1808",
+                                        "label": "Enabled",
+                                        "name": "enabled",
+                                        "type": "true_false",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "message": "",
+                                        "default_value": 1,
+                                        "ui": 1,
+                                        "ui_on_text": "",
+                                        "ui_off_text": ""
+                                    },
+                                    {
+                                        "key": "field_603becefe1809",
+                                        "label": "Instance Name",
+                                        "name": "rotator_name",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": ""
+                                    },
+                                    {
+                                        "key": "field_603bf94322a3e",
+                                        "label": "<span class=\"mdi mdi-page-layout-header-footer\"><\/span> Wrapper",
+                                        "name": "",
+                                        "type": "tab",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "placement": "left",
+                                        "endpoint": 0
+                                    },
+                                    {
+                                        "key": "field_603bf96f22a3f",
+                                        "label": "Wrapper Open",
+                                        "name": "wrapper_open",
+                                        "type": "textarea",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "ue__codemirror",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "maxlength": "",
+                                        "rows": "",
+                                        "new_lines": ""
+                                    },
+                                    {
+                                        "key": "field_603bf97c22a40",
+                                        "label": "Wrapper Close",
+                                        "name": "wrapper_close",
+                                        "type": "textarea",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "ue__codemirror",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "maxlength": "",
+                                        "rows": "",
+                                        "new_lines": ""
+                                    },
+                                    {
+                                        "key": "field_603bfc1beb219",
+                                        "label": "<span class=\"mdi mdi-format-wrap-tight\"><\/span> Menu Wrapper",
+                                        "name": "",
+                                        "type": "tab",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "placement": "left",
+                                        "endpoint": 0
+                                    },
+                                    {
+                                        "key": "field_603bfc49eb21b",
+                                        "label": "Menu Wrapper Open",
+                                        "name": "menu_wrapper_open",
+                                        "type": "textarea",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "ue__codemirror",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "maxlength": "",
+                                        "rows": "",
+                                        "new_lines": ""
+                                    },
+                                    {
+                                        "key": "field_603bfc78eb21c",
+                                        "label": "Menu Wrapper Close",
+                                        "name": "menu_wrapper_close",
+                                        "type": "textarea",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "ue__codemirror",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "maxlength": "",
+                                        "rows": "",
+                                        "new_lines": ""
+                                    },
+                                    {
+                                        "key": "field_603bfde64b4bc",
+                                        "label": "<span class=\"mdi mdi-texture-box\"><\/span> Content Wrapper",
+                                        "name": "",
+                                        "type": "tab",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "placement": "left",
+                                        "endpoint": 0
+                                    },
+                                    {
+                                        "key": "field_603bfe254b4bd",
+                                        "label": "Content Wrapper Open",
+                                        "name": "content_wrapper_open",
+                                        "type": "textarea",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "ue__codemirror",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "maxlength": "",
+                                        "rows": "",
+                                        "new_lines": ""
+                                    },
+                                    {
+                                        "key": "field_603bfe374b4be",
+                                        "label": "Content Wrapper Close",
+                                        "name": "content_wrapper_close",
+                                        "type": "textarea",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "ue__codemirror",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "maxlength": "",
+                                        "rows": "",
+                                        "new_lines": ""
+                                    },
+                                    {
+                                        "key": "field_603bed00e180a",
+                                        "label": "<span class=\"mdi mdi-axis-x-rotate-clockwise\"><\/span> Rotator",
+                                        "name": "",
+                                        "type": "tab",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "placement": "left",
+                                        "endpoint": 0
+                                    },
+                                    {
+                                        "key": "field_603beedde180e",
+                                        "label": "Rotator Instance",
+                                        "name": "rotator_instance",
+                                        "type": "repeater",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "collapsed": "field_603bf0165057f",
+                                        "min": 0,
+                                        "max": 0,
+                                        "layout": "block",
+                                        "button_label": "",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_603bf0165057f",
+                                                "label": "Identifier",
+                                                "name": "id",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_603bed2fe180b",
+                                                "label": "Menu Item",
+                                                "name": "rotator_menu",
+                                                "type": "textarea",
+                                                "instructions": "This is the code that will be used in the menu. Usually an A link.",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "ue__codemirror",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": "",
+                                                "new_lines": ""
+                                            },
+                                            {
+                                                "key": "field_603bedbfe180d",
+                                                "label": "Content",
+                                                "name": "rotator_content",
+                                                "type": "textarea",
+                                                "instructions": "This is the content that will be displayed once the menu is selected.",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "ue__codemirror",
+                                                    "id": ""
+                                                },
+                                                "hide_admin": 0,
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "maxlength": "",
+                                                "rows": "",
+                                                "new_lines": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "field_603ca0c5d0c26",
+                                        "label": "<span class=\"mdi mdi-language-css3\"><\/span> CSS",
+                                        "name": "",
+                                        "type": "tab",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "placement": "left",
+                                        "endpoint": 0
+                                    },
+                                    {
+                                        "key": "field_603ca0d2d0c27",
+                                        "label": "Inline CSS",
+                                        "name": "css",
+                                        "type": "textarea",
+                                        "instructions": "This CSS is placed just above the code.",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "ue__codemirror",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "maxlength": "",
+                                        "rows": "",
+                                        "new_lines": ""
+                                    },
+                                    {
+                                        "key": "field_603c9d7086b74",
+                                        "label": "<span class=\"mdi mdi-language-javascript\"><\/span> Javascript",
+                                        "name": "",
+                                        "type": "tab",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "placement": "left",
+                                        "endpoint": 0
+                                    },
+                                    {
+                                        "key": "field_603c9d8486b75",
+                                        "label": "Javascript",
+                                        "name": "javascript",
+                                        "type": "textarea",
+                                        "instructions": "JS Placed into the footer.",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "ue__codemirror",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "maxlength": "",
+                                        "rows": "",
+                                        "new_lines": ""
+                                    }
+                                ],
+                                "min": "",
+                                "max": ""
+                            },
+                            "layout_60409c4bd417f": {
+                                "key": "layout_60409c4bd417f",
+                                "name": "rawcode",
+                                "label": "<span class=\"mdi mdi-microsoft-visual-studio-code\"><\/span> Raw Code",
+                                "display": "block",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_60409dff3f7c0",
+                                        "label": "Cloned Raw Data",
+                                        "name": "cloned_raw_data",
+                                        "type": "clone",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "clone": [
+                                            "group_5ffc51875a17b"
+                                        ],
+                                        "display": "seamless",
+                                        "layout": "block",
+                                        "prefix_label": 0,
+                                        "prefix_name": 0
+                                    },
+                                    {
+                                        "key": "field_60409cb969dd7",
+                                        "label": "CLONE RAW DATA",
+                                        "name": "clone_raw_data",
+                                        "type": "clone",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "hide_admin": 0,
+                                        "clone": "",
+                                        "display": "seamless",
+                                        "layout": "block",
+                                        "prefix_label": 0,
+                                        "prefix_name": 0
+                                    }
+                                ],
+                                "min": "",
+                                "max": ""
+                            }
+                        },
+                        "button_label": "Add Organism",
+                        "min": "",
+                        "max": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5ffc5d2259b94",
+                "label": "<span class=\"mdi mdi-cog\"><\/span> Settings",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_600577ea9294e",
+                "label": "Body Classes",
+                "name": "body_classes",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_600577085522f",
+                "label": "Page Classes",
+                "name": "page_classes",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_603602660f7b2",
+                "label": "<span class=\"mdi mdi-page-layout-header-footer\"><\/span> Header \/ Footer",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_603602ba0f7b3",
+                "label": "Header",
+                "name": "header",
+                "type": "repeater",
+                "instructions": "Add code into the header of the page.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "collapsed": "field_6036032b0f7b7",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_6036030a0f7b6",
+                        "label": "Enabled",
+                        "name": "enabled",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "message": "",
+                        "default_value": 1,
+                        "ui": 1,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_6036032b0f7b7",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "80",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_603602db0f7b5",
+                        "label": "Code",
+                        "name": "code",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "ue__codemirror",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": "",
+                        "new_lines": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_603603490f7b8",
+                "label": "Footer",
+                "name": "footer",
+                "type": "repeater",
+                "instructions": "Add code into the footer of the page.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "collapsed": "field_603603490f7ba",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_603603490f7b9",
+                        "label": "Enabled",
+                        "name": "enabled",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "20",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "message": "",
+                        "default_value": 1,
+                        "ui": 1,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
+                    },
+                    {
+                        "key": "field_603603490f7ba",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "80",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_603603490f7bb",
+                        "label": "Code",
+                        "name": "code",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "ue__codemirror",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": "",
+                        "new_lines": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_600587fc6ac51",
+                "label": "<span class=\"mdi mdi-svg\"><\/span> SVGs",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_600588176ac52",
+                "label": "Svg Instances",
+                "name": "svg_instances",
+                "type": "repeater",
+                "instructions": "Add SVGs into the footer. Make sure that it is a \"symbol\" so you can reference it in the page.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "collapsed": "field_604f8d780784d",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_604f8d780784d",
+                        "label": "Label",
+                        "name": "label",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "hide_admin": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_6005882c6ac53",
+                        "label": "SVG",
+                        "name": "svg",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "ue__codemirror",
+                            "id": ""
+                        },
+                        "default_value": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" style=\"width:0;height:0;visibility:hidden;\">\r\n\t<symbol viewBox=\"0 0 24 24\" id=\"transfer-right\">\r\n\t\t<path d=\"M3,8H5V16H3V8M7,8H9V16H7V8M11,8H13V16H11V8M15,19.25V4.75L22.25,12L15,19.25Z\"\/>\r\n\t<\/symbol>\r\n<\/svg>",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": 4,
+                        "new_lines": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_602cd7e9dd10e",
+                "label": "<span class=\"mdi mdi-export\"><\/span> Export",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_602cdba7dd10f",
+                "label": "Export",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "message": "<a href=\"\/wp-admin\/edit.php?post_type=acf-field-group&page=acf-tools&download_file=1\" target=\"_blank\">Export to JSON File<\/a>",
+                "new_lines": "",
+                "esc_html": 0
+            },
+            {
+                "key": "field_602e273c8cee6",
+                "label": "JSON Export Data",
+                "name": "json_export_data",
+                "type": "textarea",
+                "instructions": "This is the JSON of the builder data",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 20,
+                "new_lines": ""
+            },
+            {
+                "key": "field_6060811aeb261",
+                "label": "JSON Export SVGs",
+                "name": "json_export_svg",
+                "type": "textarea",
+                "instructions": "This is the JSON of the SVGs",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 20,
+                "new_lines": ""
+            },
+            {
+                "key": "field_602e5893bbfcc",
+                "label": "<span class=\"mdi mdi-import\"><\/span> Import",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_602e58a3bbfcd",
+                "label": "JSON Import Data",
+                "name": "json_import_data",
+                "type": "textarea",
+                "instructions": "Paste in JSON from an export file here and click UPDATE. Anything in here will be used to create the Page Builder contents. \r\nClear textarea to skip import.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 20,
+                "new_lines": ""
+            },
+            {
+                "key": "field_60608139eb262",
+                "label": "JSON Import SVGs",
+                "name": "json_import_svg",
+                "type": "textarea",
+                "instructions": "Paste in JSON from an export file here and click UPDATE. Anything in here will be used to create the SVG contents. \r\nClear textarea to skip import.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "ue__codemirror",
+                    "id": ""
+                },
+                "hide_admin": 0,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 20,
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                }
+            ],
+            [
+                {
+                    "param": "taxonomy",
+                    "operator": "==",
+                    "value": "all"
+                }
+            ],
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "amp"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content"
+        ],
+        "active": true,
+        "description": ""
+    }
+]
