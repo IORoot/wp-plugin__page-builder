@@ -8,6 +8,8 @@ function page_builder_header_code_callback()
     $result = ''; 
     $header = get_field( "header" );
 
+    if (empty($header)){ return; }
+
     foreach ($header as $head){
         $result .= $head['code'] . PHP_EOL;
     }

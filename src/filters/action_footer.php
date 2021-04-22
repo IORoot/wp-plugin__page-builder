@@ -8,6 +8,8 @@ function page_builder_footer_code_callback()
     $result = ''; 
     $footer = get_field( "footer" );
 
+    if (empty($footer)){ return; }
+    
     foreach ($footer as $foot){
         $result .= $foot['code'] . PHP_EOL;
     }
