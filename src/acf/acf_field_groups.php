@@ -1491,6 +1491,27 @@ if( function_exists('acf_add_local_field_group') ):
                 'maxlength' => '',
             ),
             array(
+                'key' => 'field_608151363f04f',
+                'label' => 'AMP Header Tags',
+                'name' => 'amp_header_tags',
+                'type' => 'textarea',
+                'instructions' => 'Add extra header tags into the AMP <head>.',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => 'ue__codemirror',
+                    'id' => '',
+                ),
+                'hide_admin' => 0,
+                'default_value' => '<link rel="canonical" href=".">
+    <title>AMP Page</title>',
+                'placeholder' => '',
+                'maxlength' => '',
+                'rows' => '',
+                'new_lines' => '',
+            ),
+            array(
                 'key' => 'field_603602660f7b2',
                 'label' => '<span class="mdi mdi-page-layout-header-footer"></span> Header / Footer',
                 'name' => '',
