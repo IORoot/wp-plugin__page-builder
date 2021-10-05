@@ -73,7 +73,6 @@ if( function_exists('acf_add_local_field_group') ):
                             'class' => '',
                             'id' => '',
                         ),
-                        'hide_admin' => 0,
                         'layouts' => array(
                             'layout_5ffc6942a4e5d' => array(
                                 'key' => 'layout_5ffc6942a4e5d',
@@ -1420,6 +1419,37 @@ if( function_exists('acf_add_local_field_group') ):
                                         ),
                                         'hide_admin' => 0,
                                         'clone' => '',
+                                        'display' => 'seamless',
+                                        'layout' => 'block',
+                                        'prefix_label' => 0,
+                                        'prefix_name' => 0,
+                                    ),
+                                ),
+                                'min' => '',
+                                'max' => '',
+                            ),
+                            'layout_615c6ff48925b' => array(
+                                'key' => 'layout_615c6ff48925b',
+                                'name' => 'Epic Slider',
+                                'label' => '<span class="mdi mdi-view-carousel-outline"></span> Epic Slider',
+                                'display' => 'block',
+                                'sub_fields' => array(
+                                    array(
+                                        'key' => 'field_615c70168925c',
+                                        'label' => 'Cloned Epic Slider',
+                                        'name' => 'cloned_epic_slider',
+                                        'type' => 'clone',
+                                        'instructions' => '',
+                                        'required' => 0,
+                                        'conditional_logic' => 0,
+                                        'wrapper' => array(
+                                            'width' => '',
+                                            'class' => '',
+                                            'id' => '',
+                                        ),
+                                        'clone' => array(
+                                            0 => 'group_615c6d9d6c7df',
+                                        ),
                                         'display' => 'seamless',
                                         'layout' => 'block',
                                         'prefix_label' => 0,
