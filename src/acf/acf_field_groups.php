@@ -1430,7 +1430,7 @@ if( function_exists('acf_add_local_field_group') ):
                             ),
                             'layout_615c6ff48925b' => array(
                                 'key' => 'layout_615c6ff48925b',
-                                'name' => 'Epic Slider',
+                                'name' => 'epicslider',
                                 'label' => '<span class="mdi mdi-view-carousel-outline"></span> Epic Slider',
                                 'display' => 'block',
                                 'sub_fields' => array(
