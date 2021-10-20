@@ -11,8 +11,19 @@ you to inject any code you want directly onto the page.
 ## Use-case
 
 Built with tailwind-css and SVGs as imagery in mind, this builder was created to allow me to keep the page 
-sizes to a minimum for good lighthouse scores.
+sizes to a minimum for good lighthouse scores. 
 
+The page builder really only does the following things:
+
+1. Gives you access to the other page-builder plugins to place onto the page.
+2. Add classes into the body or page. (optional)
+3. Add code into the Header
+4. Add code into the Footer
+5. Add SVGs into the Footer
+6. Import and Export JSON representation of the page. 
+7. Import and Export JSON representation of the SVGs. 
+
+The import/export functionality allows you to copy & paste the page or SVG data all in one.
 
 ## Requirements
 
