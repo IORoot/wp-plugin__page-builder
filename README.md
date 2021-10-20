@@ -8,6 +8,9 @@ A light-weight solution that enables you to build pages the way you want to - wi
 This is the base module that requires other plugins to run. For instance, the `rawcode` plugin will allow
 you to inject any code you want directly onto the page.
 
+The beauty of it is that it allows you to create an organised foldered structure for your sections by using
+ACFs 'repeaters' and 'clones'.
+
 ## Use-case
 
 Built with tailwind-css and SVGs as imagery in mind, this builder was created to allow me to keep the page 
