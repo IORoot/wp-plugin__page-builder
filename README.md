@@ -63,3 +63,6 @@ Similarly, the theme footer will require the following code, just ABOVE the `wo_
 This is for any SVGs to reference or Javascript to inject.
 
 
+## Changelog
+
+v1.0.0 - Initial Release
